@@ -12,6 +12,7 @@
       background-attachment: fixed;
       color: white;
       padding: 20px;
+      padding-bottom: 60px; /* Tambahan agar ada jarak kosong di bawah */
     }
     h1 {
       font-size: 24px;
@@ -26,9 +27,10 @@
       margin-top: 20px;
       text-align: center;
     }
-    video {
+    iframe {
       width: 100%;
       max-width: 720px;
+      height: 405px; /* Tinggi disesuaikan untuk rasio 16:9 */
       border: 2px solid white;
       border-radius: 10px;
       box-shadow: 0 0 10px black;
@@ -41,10 +43,7 @@
   Ok itu aja, sekian dan terimakasih</p>
 
   <div class="video-container">
-    <video controls>
-      <source src="https://github.com/febbilFHKuromorimine/febbilfhkuromorimine.github.io/releases/download/V5.0/pie01.mp4" type="video/mp4">
-      Browser kamu tidak mendukung pemutar video.
-    </video>
+    <iframe src="https://www.youtube.com/embed/n0yQXMAoy_4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </body>
 </html>
